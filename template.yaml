@@ -45,7 +45,7 @@ Resources:
   CrudFunction:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: !Sub ${Environment}-${Project}-CrudFunction
+      FunctionName: !Sub ${Environment}-${ProjectName}-CrudFunction
       CodeUri: src/
       Handler: index.handler
       Runtime: nodejs18.x
