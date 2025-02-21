@@ -10,10 +10,13 @@ Parameters:
     Default: dev
   FrontendCitizenBucket:
     Type: String
+    Default: default
   GCaptchaSecret:
     Type: String
+    Default: default
   TokenSecret:
     Type: String
+    Default: default
 Resources:
 
   DynamoDBCredDownload:
